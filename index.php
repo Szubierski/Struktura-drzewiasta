@@ -89,16 +89,6 @@
         <div id="admin" style="display: block;">
             <h1>Zarządzanie strukturą drzewa</h1>
 
-            <form id="sort">
-                Sortuj według:
-                <select name="NodeSort" id="NodeSort">
-                    <option value="1" selected>Alfabetu [A-Z]</option>
-                    <option value="2">Alfabetu [Z-A]</option>
-                </select>
-
-                <input type="button" class="btn" value="Sortuj">
-            </form>
-
             <form id="newNodeForm" method="POST">
                 Nowy węzeł:
                 <input type="text" name="val1" id="newNode">
