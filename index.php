@@ -63,7 +63,6 @@
             list();
             menuToggle();
             treeToggle();
-            newTree();
             validate();
         }
 
